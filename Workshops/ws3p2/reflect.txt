@@ -1,0 +1,32 @@
+// Vlado Tomovic     vtomovic@myseneca.ca     SN : 107995151     Date : 2021 / 10 / 03
+
+Although this workshop took me a long time to complete due to my lack of programming ability and syntax
+using templates, I have learned much about designing class templates. class templates offer us a wide array
+of ability due to the type safety they have to offer, not only that but class templates are also known at compile
+time which can potentially save memory due of the lack of dynamic dispatch in their design. This workshop 
+also taught me how to properly instantiate a template class exactly how we would with a derived class
+formerly. 
+
+Using variable templates also gave us the ability to define and instantiate different variables, or static data members such as 
+value and key, in this instant across multiple different parts of a template such as Set.h and SetSummable.h, and Pair.h and PairSummable.h. 
+This showed how powerful parametric polymorphism can be by giving us the ability to derive one templated class, to another, and instantiate them.
+We specified the class variable outside the class definition, because when we were specializing our template, doing it within the class definition
+would lead to conflict. But simultaneously our class variables were private within our class scope, but by referring to our templates
+we were able to define them without an issue and use them in our specialization.
+
+Specializing in this case, worked very similar to standard method/operator overloading. We had to overload our template specialization
+of our += operator so that we could concatenate two string. Because strings aren't a primitive data type, 
+passing them into our template arguments without proper definition could potentially lead to catastrophic errors.
+I believe that was the purpose of that operator overload as we could have just used const char*, but string literals
+are up to us for implementation and can save us from having to track and deallocate dynamic memory
+as we would if we were to use const char*.
+
+We need initial so that we can make a PairSummable object, using the one argument constructor in SetSummable.
+We didn’t have to specialize the initial value, because initial figured out what type we need to initialize the values to, in this case
+when we needed a string initial would set its self to 0 and for our string literal, it would be set to an empty string. 
+
+
+
+
+
+

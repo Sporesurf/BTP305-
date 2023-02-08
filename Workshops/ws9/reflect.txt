@@ -1,0 +1,20 @@
+// Vlado Tomovic 	vtomovic@myseneca.ca 	SN : 107995151 	Date : 2021 / 11 / 28
+
+This workshop showed me how easy it can be to read and write into binary files using the fstream methods
+read and write in combination with our local stream objects. It as well allowed me to create a wrapper binding 
+the converter function to the arguments I passed to it. It was as well my first time partitioning data using multiple threads which was quite interesting.
+
+I believe it was necessary because we were using multiple threads, the operations are more intense on cpu cycles, therefore we used binary files
+because not only are they smaller than text files, but they are faster at transmitting data and require less cpu usage.
+
+It's important to bind because one it allows you to fix a number of arguments to a function, but two because it allows the information of the data
+you are binding to be exclusive from any libraries you may be calling. In the case of our workshop, it was important to bind the function its args
+because it allowed us to create placeholders between each thread. 
+
+The biggest advantage of multi threading is the ability to simultaneously execute multiple tasks within a program. I accomplished multi-threading
+in this work shop by creating 4 separate thread objects, and passed a binded variant of the converter object defined above. I then used join to
+block any running threads until each thread finished its execution. 
+
+
+
+

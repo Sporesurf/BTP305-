@@ -1,0 +1,29 @@
+// Vlado Tomovic 	vtomovic@myseneca.ca 	SN : 107995151 	Date : 2021 / 11 / 07
+ 
+During this workshop, I got quite comfortable using the vector container. I also have a good understanding of
+range-based iteration and find that it should be the only way to iterate through containers that are contiguous in memory.
+I also learned how to handle exceptions with objects that are stored in containers, in this case being the dynamic ones we created using the Utilities
+Module, this workshop as well gave me a better understanding of how to push these objects (front and back) within our containers.
+ 
+In our Autoshop module, we stored our dynamically allocated car type objects within our vector m_vehicles.
+Of course, whenever we allocate dynamic memory in C++, we have to take care of the garbage ourselves and this time we did it
+using a range based for loop. Unless a type is specified, Vectors will not care for management of data within them, because in this scenario we were
+working with a dynamic array of objects, it's up to us as the programmers to make sure those same objects are taken care of in order
+to prevent memory leaks. If however, we were to write something such as vector<int>, the compiler itself would take care of such memory.
+ 
+One thing I found extremely interesting is the template we created in the same module. Because
+in part 2 of the workshop, we create a mixture of both cars and RaceCars (both dynamic objects), our template argument T
+not only accepted both object types, but as well checked if the objects were indeed Cars in sync with our
+lambda expressions in the main module before we appended them in our container.
+ 
+loadData() was able to detect something went wrong because of the pointers we have stored in Vehicle* aVehicle, where if an
+instance of a car is successfully created there will be no issue, however in the event there is one, our catch blocks within our
+modules will catch the error depending on which instance is trying to be created as both RaceCar and Car and children of the Vehicles
+interface. Another method of successfully catching these errors I believe is to create a bool method that returns
+whether an object is successfully created or not, in the event it is it passes the exceptions and in the event it was to fail,
+it would return its failure and the block would be caught.
+ 
+In the case we were to use the two specific collections, I believe that similar to the move constructor, these objects would behave
+more like values or copies rather than the actual regions of memory where the objects are stored/referenced.
+ 
+ 

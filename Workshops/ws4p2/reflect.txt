@@ -1,0 +1,25 @@
+// Vlado Tomovic     vtomovic@myseneca.ca     SN : 107995151     Date : 2021 / 10 / 11
+
+The difference between aggregation and composition in implementation is that, with aggregation the child class is independent of the parents class.
+For example, in this workshop  it was the relationship between restaurant and reservation with restaurant being the child class.
+
+For composition we had the relationship
+between ConfirmationSender and its parent being the Restaurant module, in this case ConfirmationSender relied solely on a double pointer to reservation
+in order to constructor confirmations on the reservation end of the program. Composition relies on a has-a relationship, where both the parent class and child class
+are highly dependant on one another. Without a Reservation, we can't have a confirmation and vice versa. 
+
+Association would be the relationship between Restaurant and ConfirmationSender,
+where although there was not really much of a relationship between the two, they both relied on the same data / objects supported by the reservation class, 
+for every Confirmed reservation, there was a reservation in a restaurant.
+
+Although it was the most time consuming to understand and implement, in the reservation class where we we had to manage the passing of one string parameter
+and break it down using string functions, e.g) substr, find, erase and stoi was super interesting. I never really thought about managing strings this way but after 
+getting the hang of it, it seemed to be a really efficient way to store and separate strings into string objects within our class. I could see this kind of implementation
+being really useful for the break down of an actual reservation database, e.g.) a dental clinic, restaurant, and so forth. We also didn't really have to manage
+any memory for it because string literals reside in their own static storage. 
+
+Upon dynamically managing the array of reservation pointers, I had run into an error where I forgot de-reference the pointer in the ostream friend helper,
+this resulted in the memory address of each object being printed out instead of the actually object its self. Although this error seems like a really easy fix (and it is), it
+had me going around in circles because I couldn't figure out what I was doing wrong and missing, however after realizing I was missing an asterix, I have figured out
+the importance of dereferencing object pointers when pushing their data back out to the console. Moving forward I will definitely remember this mistake
+and will have no issue avoiding it in the future.

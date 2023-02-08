@@ -1,0 +1,18 @@
+// Vlado Tomovic     vtomovic@myseneca.ca     SN : 107995151     Date : 2021 / 09 / 26
+
+This workshop refreshed my memory with retrieving records using ifstream objects, although I had some difficulties 
+initially with getline in the second iteration of reading the files and loading the strings in the m_string array.
+Counting the number of records was fairly straight forward in both modules, but was very useful
+for keeping track of each iteration of a record, as well with allocating memory for each string.
+I had a lot of confusion with the chrono library, as there was a lot of documentation and I kept running around
+in circles with the syntax, but moving forward it isn't as complicated as it was this passed week.
+It also looks really useful for keeping track of memory usage, by counting the time required to 
+allocate and deallocate memory and I can see how useful it may be when memory constraints are important.
+Upon reaching part 2, I was definitely concerned because copy constructors and operators are probably what I most
+struggled with implementing in btp200, so the idea of now doing the same with move semantics intimidated me.
+However, they were as well really straight forward when I was following the course notes under "classes and enumerations".
+Upon fixing all my memory leaks and having a successful output, I was quite impressed with the difference 
+in run-time required to process the move semantics, they used almost no time relative to the ladder being 
+default copy constructors and assignment operators. The move copy constructor and move assignment operator are significantly faster because its borrowing 
+resources from already existing memory. Where as the standard copy assignment operator and constructor have to allocate their own memory.
+That’s because move functionalities leave the left in an invalid state and only hold the r value, utilizing data from temp objects.

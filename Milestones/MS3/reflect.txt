@@ -1,0 +1,52 @@
+// Name: Vlado Tomovic
+// Seneca Student ID: 107995151
+// Seneca email: vtomovic@myseneca.ca
+// Date of completion: 2021/12/06
+//
+// I confirm that I am the only author of this file
+//   and the content was created entirely by me.
+
+Utilities Module:
+Although the utilities module was probably the easiest between all the milestones because four of the five methods didn't require anything other than return statements.
+extractToken had me going in circles for quite some time. At this point in the course, I was still having some trouble using substr properly, and the reference to more threw me off.
+However after multiple attempts across a few days I was finally able to get it down and it made extracting tokens from every other module so much easier to comprehend. 
+
+This module once again showed me how a custom utilities module can be really
+useful when working on larger projects and you want to avoid using libraries for certain tasks.
+I as well also definitely enjoy using the string library much more than creating dynamic character arrays after this semester. 
+
+Stations Module:
+The stations module was honestly really straight forward after successfully finishing the utilities module. The documentation was very straight forward and work wasn't out of scope with anything we have done
+this semester.
+
+
+CustomerOrder Module:
+At this point when writing the CustomerOrder module, I wasn't very comfortable with the STD library and henceforth when I was creating the CustomerOrder constructor. I did what I was comfortable with
+and I made a custom += operator to not only add, but as well resize the array the best way I know how. The double pointer also threw me off a little bit even though I understood them conceptually from day 1.
+However, after finishing the LineManager module and going back to your reccomendation via email, I went back to tackle it again but by using STD iterators to get the count but I kept running into
+memory allocation errors unfortunately. It became too time consuming trying to create this constructor without resizing. After this submission, I'm definitely going to go back and see if I can get it working properly.
+
+Everything else was pretty trivial in this module (at least I thought), and the only thing that really threw
+me off for a little while was the fact that I forgot to delete each iteration of m_lstItem, (at the i-th position) which resulted in crashes. Super silly mistake and it was something I thought I was already over
+however I must have been relatively sleep deprived when I made that mistake.
+
+I also had an error in milestone 3 where I had to run back to CustomerOrder and fix my logic within the fillItem method. Once I figured out where the error was occurring, 
+I was immediately able to recognize the error in the logic and actually laughed at my self after seeing how I got the spaghetti code to work for ms2. I completely redid the method using parts of my previous one
+and got it to work perfectly. This was the final step to getting the correct output in my final milestone.
+
+
+Workstations Module:
+The WorkStations module was relatively straight forward, some of the instructors (in specific for the attemptToMoveOrder function), threw me off a little bit. I had to write that function out a few times and go through it a few
+more with break points to make sure each condition was correct, but once I got it working the remainder of the module was extremely easy and straight forward, this didn't prepare me for what was to come in the next module.
+
+LineManager Module:
+THIS MODULE, drove me completely insane for about a week. Honestly, the module wasn't that bad, but the amount of repeat attempts I had on the constructor to get it working was crazy. Looking back at it after completion, it wasn't difficult
+whatsoever, however I had to climb a mountain to actually understand what was going on. I definitely feel much more comfortable with using deques, lambda expressions, and algorithms such as find_if and for_each to work with ranges. In-fact, I actually
+went back and rewrote my display using the for_each algorithm because I like how clean it is. The reason I had so much difficulty with it though, is because I'm still a very break point dependant programmer when it comes to c++,
+and unless I'm using breakpoints wrong or not using the functionalities of visual studio properly, I don't actually recieve a lot of the information I need when using algorithms. Although now I understand some of them, this made 
+it quite difficult for me. linkStations was pretty trivial, and at this point in the course working with filestreams is nature, (I wish I could have said that in BTP200), and run was easy as well because I was already comfortable with pop_front()
+One thing I would wish though for the LineManager module though, was that the instructions were just a little bit clearer at times. I could have emailed at times to clarify certain things and it was my fault that I didn’t.
+
+Overall Comments:
+All in all, I feel amazing writing this and knowing that I’m done with this project. I’m really proud of my work, and I can't wait to hit that submit button momentarily. Thank you for the wonderful semester, your teachings were very useful
+and the supplementary notes were life saving for not just the workshops, but this very milestone its self.

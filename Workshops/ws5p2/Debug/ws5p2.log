@@ -1,0 +1,146 @@
+﻿  Book.cpp
+  Movie.cpp
+  SpellChecker.cpp
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\SpellChecker.cpp(36,7): error C3927: '->': trailing return type is not allowed after a non-function declarator
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\SpellChecker.cpp(36,7): error C3484: syntax error: expected '->' before the return type
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\SpellChecker.cpp(36,13): error C3613: missing return type after '->' ('int' assumed)
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\SpellChecker.cpp(36,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\SpellChecker.cpp(36,8): error C2146: syntax error: missing ';' before identifier 'close'
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\SpellChecker.cpp(39,7): error C2653: 'SpellChecker': is not a class or namespace name
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\SpellChecker.cpp(47,19): error C2065: 'm_badWords': undeclared identifier
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\SpellChecker.cpp(48,21): error C2065: 'm_badWords': undeclared identifier
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\SpellChecker.cpp(48,45): error C2065: 'm_goodWords': undeclared identifier
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\SpellChecker.cpp(48,59): error C2661: 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::replace': no overloaded function takes 1 arguments
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\SpellChecker.cpp(50,19): error C2065: 'replacements': undeclared identifier
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\SpellChecker.cpp(51,6): error C2065: 'replacements': undeclared identifier
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\SpellChecker.cpp(56,7): error C2653: 'SpellChecker': is not a class or namespace name
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\SpellChecker.cpp(57,2): error C2270: 'showStatistics': modifiers not allowed on nonmember functions
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\SpellChecker.cpp(61,23): error C2065: 'm_badWords': undeclared identifier
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\SpellChecker.cpp(61,48): error C2065: 'replacements': undeclared identifier
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\SpellChecker.cpp(64,1): error C2059: syntax error: '}'
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\SpellChecker.cpp(64,1): error C2143: syntax error: missing ';' before '}'
+  w5_p2.cpp
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\Movie.h(10,2): error C2059: syntax error: '}'
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\Movie.h(10,2): error C2988: unrecognizable template declaration/definition
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\Movie.h(10,2): error C2143: syntax error: missing ';' before '}'
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\Movie.h(10,2): error C2238: unexpected token(s) preceding ';'
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\Movie.h(10,3): error C2988: unrecognizable template declaration/definition
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\Movie.h(10,3): error C2059: syntax error: '<end Parse>'
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\Collection.h(37,73): error C2065: 'itemsAdded': undeclared identifier
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\Collection.h(87): message : see reference to class template instantiation 'sdds::Collection<T>' being compiled
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\Collection.h(37,73): error C3861: 'itemsAdded': identifier not found
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\Collection.h(53,10): error C3861: 'itemsAdded': identifier not found
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\Collection.h(80,21): error C2065: 'i': undeclared identifier
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\Collection.h(80,21): error C3861: 'i': identifier not found
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\Collection.h(80,4): error C3861: 'm_noOfItem': identifier not found
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\Collection.h(80,16): error C2065: 'i': undeclared identifier
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\Collection.h(80,16): error C3861: 'i': identifier not found
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\Collection.h(82,19): error C3861: 'i': identifier not found
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\SpellChecker.h(12,27): error C2440: 'initializing': cannot convert from 'unsigned int' to 'size_t [6]'
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\SpellChecker.h(12,27): message : There are no conversions to array types, although there are conversions to references or pointers to arrays
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\SpellChecker.h(15,16): error C2059: syntax error: 'const'
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\SpellChecker.h(17,42): error C2270: 'showStatistics': modifiers not allowed on nonmember functions
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\SpellChecker.h(19,1): error C2059: syntax error: '}'
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\SpellChecker.h(19,1): error C2143: syntax error: missing ';' before '}'
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\w5_p2.cpp(28,40): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\w5_p2.cpp(28,40): error C2143: syntax error: missing ',' before '<'
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\w5_p2.cpp(31,28): error C2065: 'theBook': undeclared identifier
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\w5_p2.cpp(36,41): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\w5_p2.cpp(36,41): error C2143: syntax error: missing ',' before '<'
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\w5_p2.cpp(39,29): error C2065: 'theMovie': undeclared identifier
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\w5_p2.cpp(40,37): error C2065: 'theCollection': undeclared identifier
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\w5_p2.cpp(41,16): error C2065: 'theCollection': undeclared identifier
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\w5_p2.cpp(67,25): error C2065: 'tempStr': undeclared identifier
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\w5_p2.cpp(69,9): error C2065: 'tempStr': undeclared identifier
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\w5_p2.cpp(71,31): error C2065: 'tempStr': undeclared identifier
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\w5_p2.cpp(71,26): error C3861: 'Book': identifier not found
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\w5_p2.cpp(82,41): error C2664: 'void sdds::Collection<sdds::Book>::setObserver(void (__cdecl *)(const sdds::Collection<sdds::Book> &,const T &))': cannot convert argument 1 from 'void (__cdecl *)(const int)' to 'void (__cdecl *)(const sdds::Collection<sdds::Book> &,const T &)'
+          with
+          [
+              T=sdds::Book
+          ]
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\w5_p2.cpp(82,24): message : None of the functions with this name in scope match the target type
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\Collection.h(37,8): message : see declaration of 'sdds::Collection<sdds::Book>::setObserver'
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\w5_p2.cpp(85,4): error C2065: 'tempStr': undeclared identifier
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\w5_p2.cpp(86,25): error C2065: 'tempStr': undeclared identifier
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\w5_p2.cpp(88,9): error C2065: 'tempStr': undeclared identifier
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\w5_p2.cpp(90,31): error C2065: 'tempStr': undeclared identifier
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\w5_p2.cpp(90,26): error C3861: 'Book': identifier not found
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\w5_p2.cpp(106,58): error C2061: syntax error: identifier 'Book'
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\w5_p2.cpp(108,19): error C2065: 'book': undeclared identifier
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\w5_p2.cpp(108,17): error C2530: 'price': references must be initialized
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\w5_p2.cpp(109,25): error C2065: 'book': undeclared identifier
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\w5_p2.cpp(110,17): error C2065: 'book': undeclared identifier
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\w5_p2.cpp(137,28): error C2593: 'operator [' is ambiguous
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\Collection.h(67,6): message : could be 'T *sdds::Collection<T>::operator [](const std::string &) const'
+          with
+          [
+              T=sdds::Book
+          ]
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\Collection.h(60,6): message : or       'T &sdds::Collection<T>::operator [](size_t) const'
+          with
+          [
+              T=sdds::Book
+          ]
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\w5_p2.cpp(137,28): message : while trying to match the argument list '(sdds::Collection<sdds::Book>, auto)'
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\w5_p2.cpp(147,2): error C2065: 'Collection': undeclared identifier
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\w5_p2.cpp(147,13): error C2065: 'Movie': undeclared identifier
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\w5_p2.cpp(147,20): error C3861: 'theCollection': identifier not found
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\w5_p2.cpp(150,2): error C2065: 'Movie': undeclared identifier
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\w5_p2.cpp(150,8): error C2146: syntax error: missing ';' before identifier 'movies'
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\w5_p2.cpp(150,8): error C2065: 'movies': undeclared identifier
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\w5_p2.cpp(162,25): error C2065: 'tempStr': undeclared identifier
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\w5_p2.cpp(164,9): error C2065: 'tempStr': undeclared identifier
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\w5_p2.cpp(164,30): error C2065: 'counter': undeclared identifier
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\w5_p2.cpp(166,6): error C2065: 'movies': undeclared identifier
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\w5_p2.cpp(166,13): error C2065: 'counter': undeclared identifier
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\w5_p2.cpp(166,30): error C2065: 'tempStr': undeclared identifier
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\w5_p2.cpp(166,24): error C3861: 'Movie': identifier not found
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\w5_p2.cpp(167,6): error C2065: 'counter': undeclared identifier
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\w5_p2.cpp(180,5): error C2065: 'theCollection': undeclared identifier
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\w5_p2.cpp(180,22): error C2065: 'movies': undeclared identifier
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\w5_p2.cpp(180,36): error C2065: 'movies': undeclared identifier
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\w5_p2.cpp(180,50): error C2065: 'movies': undeclared identifier
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\w5_p2.cpp(181,3): error C2065: 'theCollection': undeclared identifier
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\w5_p2.cpp(181,20): error C2065: 'movies': undeclared identifier
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\w5_p2.cpp(183,3): error C2065: 'theCollection': undeclared identifier
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\w5_p2.cpp(184,3): error C2065: 'theCollection': undeclared identifier
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\w5_p2.cpp(184,20): error C2065: 'movies': undeclared identifier
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\w5_p2.cpp(185,3): error C2065: 'theCollection': undeclared identifier
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\w5_p2.cpp(185,20): error C2065: 'movies': undeclared identifier
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\w5_p2.cpp(186,3): error C2065: 'theCollection': undeclared identifier
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\w5_p2.cpp(186,20): error C2065: 'movies': undeclared identifier
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\w5_p2.cpp(206,17): error C2065: 'theCollection': undeclared identifier
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\w5_p2.cpp(198): error C2317: 'try' block starting on line '198' has no catch handlers
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\w5_p2.cpp(225,4): error C2065: 'SpellChecker': undeclared identifier
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\w5_p2.cpp(225,17): error C2146: syntax error: missing ';' before identifier 'sp'
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\w5_p2.cpp(225,26): error C2108: subscript is not of integral type
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\w5_p2.cpp(227,14): error C2593: 'operator [' is ambiguous
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\Collection.h(67,6): message : could be 'T *sdds::Collection<T>::operator [](const std::string &) const'
+          with
+          [
+              T=sdds::Book
+          ]
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\Collection.h(60,6): message : or       'T &sdds::Collection<T>::operator [](size_t) const'
+          with
+          [
+              T=sdds::Book
+          ]
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\w5_p2.cpp(227,14): message : while trying to match the argument list '(sdds::Collection<sdds::Book>, auto)'
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\w5_p2.cpp(227,28): error C2065: 'sp': undeclared identifier
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\w5_p2.cpp(228,4): error C2065: 'sp': undeclared identifier
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\w5_p2.cpp(230,26): error C2065: 'theCollection': undeclared identifier
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\w5_p2.cpp(231,5): error C2065: 'theCollection': undeclared identifier
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\w5_p2.cpp(231,34): error C2065: 'sp': undeclared identifier
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\w5_p2.cpp(232,4): error C2065: 'sp': undeclared identifier
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\w5_p2.cpp(243,15): error C2065: 'theCollection': undeclared identifier
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\w5_p2.cpp(249,13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\w5_p2.cpp(249,13): error C2143: syntax error: missing ';' before '*'
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\w5_p2.cpp(249,15): error C2065: 'aMovie': undeclared identifier
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\w5_p2.cpp(249,24): error C2065: 'theCollection': undeclared identifier
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\w5_p2.cpp(250,6): error C2065: 'aMovie': undeclared identifier
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\w5_p2.cpp(252,2): error C2065: 'aMovie': undeclared identifier
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\w5_p2.cpp(252,11): error C2065: 'theCollection': undeclared identifier
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\w5_p2.cpp(253,6): error C2065: 'aMovie': undeclared identifier
+C:\Users\vlado\source\BTP305\Workshops\ws5p2\w5_p2.cpp(254,44): error C2065: 'aMovie': undeclared identifier
+  Generating Code...

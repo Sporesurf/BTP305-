@@ -1,0 +1,19 @@
+// Vlado Tomovic 	vtomovic@myseneca.ca 	SN : 107995151 	Date : 2021 / 11 / 21
+ 
+Although we used smart pointers, I felt that we could have used them a little more for this workshop
+Up until now we have built a habbit of using raw pointers which I believe prove to be effective for very complex design patterns
+where memory and processing power is crucial. However with the introduction of smart pointers, c++ development has gotten significantly easier.
+I believe that smart pointers do a good job at turning c++ into a language similar to what we would see with python and so on where
+the compiler handles all the complicated stuff for us.  memory management and garbage collection is something I wish we could have
+seen earlier in the semester because it would have made some of the assignments easier, but this helped with my understanding of memory allocation,
+using walkthroughs to crack down on pesky bugs, and to make sure I never forget delete. Both code blocks we were asked to write in Utilities.cpp
+although almost identical, both operated very differently because unique_ptr its self actually has a function object within it that by default invokes delete 
+on whatever object we are pointing to. Leaving no room for confusion when we run into memory errors because we're deleting the wrong thing which may happen
+in situations like we saw in the Raw pointer code block. 
+
+The syntatical difference is pretty big, however once I got used to it, its actually quite easy to remember because I
+can understand the logical differences in the definition. Unique ptr takes a templated reference to our pointer argument,
+where as the Raw ptr just takes a pointer of type T.
+
+Moving forward after this course, I am definitely going to stick to using smart pointers whenever I find my self using c++. 
+If I ever go into game design in the future, and memory management is crucial to any engine code. I wont forget the standard way. 

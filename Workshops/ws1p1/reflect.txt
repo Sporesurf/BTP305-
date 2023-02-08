@@ -1,0 +1,16 @@
+// Vlado Tomovic     vtomovic@myseneca.ca     SN : 107995151     Date : 2021 / 09 / 19
+
+Prior to working out this workshop, I never knew that we had the ability to pass CLI arguments 
+in c++. At first I was asking my self, what kind of things we can achieve with it until I started looking into
+integration with databases and how useful it could actaully  be. Although it was quite intimidating at first,
+I found it relatively easy to integrate with the help of the course notes under compilation and execution.  
+I also forgot to implement header guards initially and happened to catch it pretty fast when so that was useful for
+refreshing my memory on header file standards. Another thing I learned that was very useful was the use of extern variables.
+In this module, we had to use g_sysClock which behaved like a system clock. I didn't initially initialize it as an extern variable
+and quickly ran into some issues, after doing some reading I realized what I was doing wrong and quickly made that change.
+Moving forward, this will be a very useful concept to understand when needing a global variable defined across multiple different scopes. Dynamic memory allocation was behaving weird with Valgrind, even though I used multiple different solutions
+such as creating a destructor and deleting an array of characters, or doing the same operation
+before the logic in my set function. At the end I had to settle for creating a temp
+variable to store a dynamic string, and only then could 
+I transfer the contents to eventDescription.
+Overall the experience with this workshop was pleasant and I learned many things, 
